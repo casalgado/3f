@@ -10,7 +10,7 @@ export const restaurant = {
           id: "010101",
           img: "img1",
           price: "1000",
-          descripcion: "desc1",
+          description: "desc1",
         },
       ],
     },
