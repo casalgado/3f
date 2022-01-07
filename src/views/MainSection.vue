@@ -1,10 +1,19 @@
 <template>
-  <div>Main Section</div>
+  <div>
+    <h1>Main Section</h1>
+    <div>{{ content }}</div>
+  </div>
 </template>
 
 <script>
-export default {};
+export default {
+  name: "MainSection",
+  props: ["content"],
+  mounted() {
+    console.log(this.con);
+  },
+};
 </script>
 
-<style>
+<style scoped>
 </style>
